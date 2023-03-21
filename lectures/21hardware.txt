@@ -1,0 +1,12 @@
+ Devices
+
+    resistors
+    capacitor
+        electrolytic
+        non-electrolytic
+    inductors
+    battery 
+    cell
+    ground
+
+    BJT ()

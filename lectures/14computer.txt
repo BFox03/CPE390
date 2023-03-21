@@ -1,0 +1,36 @@
+# Computer Design
+
+    Clock 
+        Master Timer, keeps everything going on at the same time on CPU
+        Cannot reach too high clock speeds because it would use too much power and reach too high of heat\
+    TDP
+        Thermal Design Power 
+        Today: server TDP = 250 Watts (very hot)
+        All chips contain temp sensor, if too hot they shut down
+        cool with fans(air), heat sinks, thermal paste, silver
+            why dont we use silver(best heat and conductor) cuz it tarnish/rusts
+            use gold which is more expensive but does not tarnish
+    Caches
+        32-bit = 4Gb address space
+        64-bit = 4.2 * 4.2B = 18 quintillion bytes
+            too much ram Intel CPU does not address 64-bit 48 pins 
+    ALU
+        Arithmetic Logic Unit (does all the math)
+        add, sub, mul, div, mod?, and, or, xor, not
+    CISC
+        Complex Instruction Set Computer (Intel)
+    RISC
+        Reduced Instruction Set Computer (ARM)
+
+# Truth Tables
+          AB       A+B      Ao+B
+A   B   A and B   A or B   A xor B   A nand B   A nor B
+0   0   0         0        0         1          1
+0   1   0         1        1         1          0
+1   0   0         1        1         1          0
+1   1   1         1        0         0          0
+
+N channel mosfets are mor efficient than P-channel
+it is more efficient with current technology to implement NAND and nor
+
+SSD Solid State Drive, built out of NAND flash

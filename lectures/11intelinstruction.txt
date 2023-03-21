@@ -1,0 +1,18 @@
+# Intel Instruction Set Summary
+
+## Registers
+Q: What is a register?
+A: Fastest memory on your computer, on chip
+
+on intel 64 bit: 16 64-bit registers 
+
+rax rbx rcx rdx  rsi rdi rbp rsp
+(rsp is specialist it is stack pointer)
+
+[reg_name]l - access lower 8 bits
+[reg_name]x - 16 bits
+e - access lower 32
+ - access lower 64
+
+%rax = 64 bit register
+%eax = 32 bit register
